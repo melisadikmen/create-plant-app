@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "title-font";
+    src: url(./../page1/BriemHand-VariableFont_wght.ttf);
+}
+
+.container {
+    height: 92vh;
+}
+
+.up-back {
+    background-color: white;
+}
+
+.title {
+    font-family: "title-font";
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    font-size: x-large;
+    color: white;
+}
+
+.up-side {
+    background-color: #129132;
+    height: 65%;
+    position: sticky;
+    z-index: 1;
+}
+
+.cards {
+
+    display: flex;
+    margin-left: 5.5rem;
+    position: absolute;
+    z-index: 2;
+    margin-top: -15rem;
+}
+
+.example-card {
+    margin-inline: 1rem;
+    margin-top: 2rem;
+
+    mat-card-header {
+        height: 12rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    mat-card-title {
+        font-size: large;
+        color: #129132;
+    }
+
+    img {
+        width: 15rem;
+        height: 14rem;
+    }
+}

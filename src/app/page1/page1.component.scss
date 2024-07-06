@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "title-font";
+    src: url(./../page1/BriemHand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "aciklama-fontu";
+    src: url(./../page1/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+.container {
+    background-image: url(./../../assets/StockSnap_KVAFPSHFYP.png);
+}
+
+.back-img {
+    height: 100vh;
+    width: 98.7vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.icon-nav {
+    color: #129132;
+}
+
+.logo-left {
+    display: flex;
+    margin-top: -34rem;
+    margin-left: 4rem;
+
+    p {
+        font-family: "title-font";
+        font-size: medium;
+        font-weight: 600;
+        color: #127029;
+        margin-left: 0.5rem;
+        margin-top: -0.07rem;
+    }
+}
+
+.logo-right {
+    margin-top: -1.7rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+    span {
+        cursor: pointer;
+    }
+}
+
+
+.explanation-part {
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 36rem;
+    margin-left: 22rem;
+    margin-top: -6rem;
+
+    p {
+        font-family: "aciklama-fontu";
+        font-weight: 500;
+    }
+
+    h2 {
+        color: orangered;
+        margin-top: 12rem;
+        font-family: "title-font";
+        font-size: xx-large;
+    }
+}

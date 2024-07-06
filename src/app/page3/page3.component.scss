@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "title-font";
+    src: url(./../page1/BriemHand-VariableFont_wght.ttf);
+}
+
+
+.back-img {
+    filter: blur(1px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.yazi-part {
+    padding-top: 11rem;
+
+    h1 {
+        font-family: "title-font";
+        font-size: xxx-large;
+        color: orangered;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 20rem;
+    }
+
+    p {
+        width: 70vh;
+        margin-left: 35rem;
+        margin-top: 2rem;
+    }
+}
+
+.container {
+    background-image: url(./../../assets/back-img.png);
+    background-repeat: no-repeat;
+    height: 97vh;
+    background-size: cover;
+}
